@@ -7,9 +7,6 @@ text-decoration:none;
 
 &:visited{
 color:var(--couleur-link-visited);
-
-}
-
 }
 
 &:hover{
@@ -24,5 +21,4 @@ color:var(--couleur-secondaire);
 &:focus{
 color:var(--couleur-texte-primaire)
 }
-
 }
