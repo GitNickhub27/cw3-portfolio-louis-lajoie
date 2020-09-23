@@ -1,18 +1,21 @@
 nav{
 display:flex;
-    align-items:center;
-width:70%;
 
+  margin:0;
+  padding:0;
+  width:100%;
 
 ul{
 display:flex;
-width:70%;
-margin-left:40%;
-    list-style:none;
+  justify-content: space-between;
+  flex-direction: row;
+   list-style:none;
+margin:0 ;
+  padding: 0;
     }
-    li{
+  ul li{
+    
+    text-align:center;
+  }
 
-margin-left:var(--margin-large);
-
-    }
 }

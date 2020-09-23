@@ -1,6 +1,11 @@
 button{
 background:var( --couleur-degrade-bouton);
+border-style: none;
 color:var(--couleur-secondaire);
+ padding: 3% 6%;
+&:hover{
+ box-shadow: var(--couleur-tertiaire) 0 0 6px;
 
+}
 
 }
