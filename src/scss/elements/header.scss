@@ -1,8 +1,19 @@
 .header-principal{
 width:375px;
 height:159px;
-margin:0;
+
+
 padding:0;
-display:inline-block;
+
 
 }
+.textehaut{
+ display:flex;
+align-items:center;
+justify-content:center;
+    h2{
+ margin-left:var(--margin-large);
+margin-right:20px;
+ }
+
+ }
