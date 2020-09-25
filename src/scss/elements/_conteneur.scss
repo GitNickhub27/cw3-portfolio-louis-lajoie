@@ -1,0 +1,14 @@
+.conteneur{
+max-width:var(--max-width);
+min-width:var(--min-width);
+
+margin:0 auto;
+}
+
+.conteneur-flex{
+  display: flex;
+flex-direction:column;
+justify-content:center;
+align-items: center;
+}
+

@@ -1,21 +1,14 @@
 .hero{
-height:504px;
 width:100%;
 
+background:var(--couleur-secondaire);
+
+
+.conteneur{
  display: flex;
  flex-direction: column;
-text-align: center;
-background:var(--couleur-secondaire);
- background-image: url("../../images/louis-lajoie.png");
- background-repeat: no-repeat;
-background-size:60%;
- background-position: bottom center ;
-.conteneur{
-height:250px;
- width:333px;
- margin: 10px ;
-padding:0 20px 0 20px;
-
+ align-items: center;
+ text-align: center;
 }
 .conteneur p,h3, h1{
 margin-left:0;
@@ -25,5 +18,8 @@ margin-bottom:15px;
 
 
 }
+ .hero.div{
+  text-align: center;
+ }
 
 }
